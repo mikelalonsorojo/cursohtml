@@ -1,0 +1,252 @@
+/*
+	version:	1.0
+	author:		Mikel Alonso
+	date:		20150518
+
+*/
+
+/*
+RESET
+resetear todos los estilos
+*/
+@import url("reset.css");
+
+/*
+ETIQUETAS
+dar un estilo general o base a toda la web
+*/
+
+/*
+Regla con selector por ETIQUETA o ELEMENTO o TAG
+*/
+body {
+	background-image: url("../img/fondofilm.jpg");
+	background-repeat: repeat;
+	font-family: arial;
+}
+
+header > h2{
+	background-color: grey;
+}
+figure {
+	
+}
+
+figcaption {
+		
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+p {
+	font-family: arial;
+	font-size: 16px; /*tamaño estandard para paginas web 16px*/
+	text-align: justify;
+	line-height: 20px;
+} 
+
+fieldset {
+	border:1px solid grey;
+	padding: 20px 30px;
+	margin-bottom: 20px;		
+}
+
+legend {
+	font-weight:bold ;
+}
+
+
+/*
+	validaciones formularios
+*/
+
+form input [type='text']:required:valid{
+	border:5px solid green;
+}
+
+form input [type='text']:focus:required:invalid{
+	border:5px solid red;
+}
+
+
+
+ol, ul {
+	list-style-type: disc;
+}
+
+li {
+	margin-bottom: 8px;
+}
+
+ol h3, ul h3 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+ol ol, ul  ul{
+	margin-left: 20px;
+	list-style-type: circle;
+}
+
+h1 {			/*recomendación ordenar alfabeticamente*/
+	color: green;
+	margin-bottom: 20px;
+	font-size: 50px;
+	font-family: arial;
+	text-align: center;
+}  
+
+
+table.tabla_azul, .tabla_azul tr, .tabla_azul td {
+	border: 1px solid grey;
+}
+
+.tabla_azul th, .tabla_azul td {
+	padding: 20px;
+	color: #0099FF;
+	font-family: arial;
+	font-size: 35px;
+	text-align: center;
+	height: 40px;
+}
+
+.tabla_azul th {
+	color: grey;
+}
+
+strong {
+	font-weight: bold;
+}
+
+mark {
+	background-color: yellow;	
+}
+
+legend
+
+
+article {
+	border: 2px solid black;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+
+article h1 {
+	background-color: grey;
+	color: black;
+	padding: 5px 0;
+}
+
+/*
+ESTILOS REUTILIZABLES
+Regla con selector por CLASS para usar en todas las páginas
+*/
+
+.btn_volver {
+	background-color: #DDDDDD;
+}
+
+.numero {
+	color: #0099FF;
+	font-size: 150px;
+}
+
+/*--------------------------------*/
+
+.highlight {
+	background-color: yellow;
+}
+
+.verde {
+	color: green;
+}
+
+
+.cartel {
+	float:left;
+	margin-right: 30px;
+	width: 250px;
+	height: auto;
+}
+
+
+/*
+Regla con selector por ID
+*/
+
+#home {
+		
+}
+
+#encabezado {
+	border: 2px solid green;
+}
+
+#ficha {
+  float: left;
+  width: 580px;
+  min-height: 360px;
+  margin-bottom: 20px;
+}
+
+#ficha p {
+	font-size: 35px;
+	line-height: 45px;
+}
+
+#ficha .destacado {
+	color: green;
+	font-weight: bold;
+}
+
+#container {
+	width:900px;
+	margin: 0 auto; /*centrar*/ /*margin-left margin-right margin-top margin-bottom*/
+	padding: 0px 20px ; /**/
+	border-right:1px solid grey;
+	border-left:1px solid grey;
+	background-color: white;	
+}
+
+#sinopsis {
+	float: left;
+	height: 200px;
+	overflow: scroll;
+}
+
+/*
+PAGINAS
+tendremos una seccion por cada pagina web
+*/
+
+/*HOME*/
+#home {
+
+}
+
+/*NAV*/
+#logo img{
+	width: 100px;
+	height: 70px;
+}
+
+
+/*CARTELERA*/
+#cartelera {
+
+}
+
+/*CARTELERA_DETALLE*/
+#cartelera_detalle h1 {
+	color: blue;
+	text-align: left;
+}
+
+
