@@ -51,13 +51,27 @@
 		</li>
 		
 		<li>
-		<h3>CSS3. Selectores</h3>
+		<h3>CSS3</h3>
 			<ul>
-				<li><a title="Ir a ejemplo Selector de hijos" href="ejemplos/css/hijos.jsp">Selector de hijos</a></li>
-				<li><a title="Ir a ejemplo Adyacente" href="ejemplos/css/adyacente.jsp">Adyacente</a></li>
-				<li><a title="Ir a ejemplo Pseudo-clases" href="ejemplos/css/p_clases.jsp">Pseudo-clases</a></li>
-				<li><a title="Ir a ejemplo Pseudo-elementos" href="ejemplos/css/p_elementos.jsp">Pseudo-elementos</a></li>
-				<li><a title="Ir a ejemplo CSS3" href="ejemplos/css/css3.jsp">CSS3</a></li>
+				<li>Selectores</li>
+					<ul>
+						<li><a title="Ir a ejemplo Selector de hijos" href="ejemplos/css/selectores/hijos.jsp">Selector de hijos</a></li>
+						<li><a title="Ir a ejemplo Adyacente" href="ejemplos/css/selectores/adyacente.jsp">Adyacente</a></li>
+						<li><a title="Ir a ejemplo Pseudo-clases" href="ejemplos/css/selectores/p_clases.jsp">Pseudo-clases</a></li>
+						<li><a title="Ir a ejemplo Pseudo-elementos" href="ejemplos/css/selectores/p_elementos.jsp">Pseudo-elementos</a></li>
+						<li><a title="Ir a ejemplo CSS3" href="ejemplos/css/selectores/css3.jsp">CSS3</a></li>
+					</ul>
+					
+				<li>Posicionamiento</li>
+					<ul>
+						<li><a title="Ir a ejemplo Posicionamiento normal" href="ejemplos/css/posicionamiento/normal.jsp">Normal</a></li>
+						<li><a title="Ir a ejemplo Posicionamiento relativo" href="ejemplos/css/posicionamiento/relativo.jsp">Relativo</a></li>
+						<li><a title="Ir a ejemplo Posicionamiento absoluto" href="ejemplos/css/posicionamiento/absoluto.jsp">Absoluto</a></li>
+						<li><a title="Ir a ejemplo Posicionamiento fijo" href="ejemplos/css/posicionamiento/fijo.jsp">Fijo</a></li>
+						<li><a title="Ir a ejemplo Posicionamiento inherit" href="ejemplos/css/posicionamiento/inherit.jsp">Inherit</a></li>
+						<li><a title="Ir a ejemplo Elementos flotantes" href="ejemplos/css/posicionamiento/float.jsp">Float</a></li>
+					</ul>
+				
 			</ul>
 		</li>
 		
