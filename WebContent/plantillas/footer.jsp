@@ -1,3 +1,4 @@
+</div>  <!-- <div id="content"> -->
 	<footer>
 		<span class="copy">&copy; Ipartek</span>
 		
@@ -16,7 +17,7 @@
 		</ul>
 	</footer>
 	
-	
+
 	</div> <!--container-->
 		
 		<!-- jQuery -->

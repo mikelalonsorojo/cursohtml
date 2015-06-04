@@ -4,7 +4,7 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
+
 			<hr>
 			<h2>Ejemplo etiqueta canvas</h2>
 			<canvas id="escribe_texto" width="200" height="100" style="border:1px solid #000000;">
@@ -17,10 +17,9 @@
 				ctx.font = "30px Arial";
 				ctx.fillText("Hello World",10,50);
 			</script>
-			
 			<hr>
 		
-		</section>
+
 	
 	</div> <!--home-->
 	

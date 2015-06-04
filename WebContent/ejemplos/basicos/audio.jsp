@@ -4,7 +4,7 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
+
 			<hr>
 			<h2>Ejemplo etiqueta audio</h2>
 			<audio controls>
@@ -12,8 +12,7 @@
  				<source src="vincent.ogg" type="audio/ogg"/>
 			</audio>
 			<hr>
-		
-		</section>
+
 	
 	</div> <!--home-->
 	

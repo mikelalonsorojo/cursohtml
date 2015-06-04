@@ -4,8 +4,7 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
-			<hr>
+	
 			<h2>Ejemplo etiqueta mark</h2>
 			<p>
 			Curabitur ex magna, blandit ac ullamcorper a, sodales sit amet quam. Vivamus nec convallis lectus, suscipit pulvinar dolor. 
@@ -18,8 +17,8 @@
 			ultricies vehicula nisl. Pellentesque vitae nunc interdum, suscipit ligula in, eleifend ante. Vestibulum non mattis magna. 
 			Proin tincidunt nisi non erat elementum, vel lacinia justo porttitor.
 			</p>
-			<hr>
-		</section>
+
+
 	
 	</div> <!--home-->
 	

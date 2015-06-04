@@ -3,13 +3,14 @@
 
 	<div id="home">
 	
-	<hr>
+	<section>
+
 	<header>
 		<h2>Pseudo-elementos</h2>
 	</header>
 	
 	<!-- El contenido principal de la pagina -->
-	<section>
+	
 		<div>
 			<h3>:first-line</h3>
 			<style>

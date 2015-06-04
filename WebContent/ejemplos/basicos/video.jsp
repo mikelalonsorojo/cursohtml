@@ -4,8 +4,8 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
-			<hr>
+	
+
 			<h2>Ejemplo etiqueta video</h2>
 			<video title="Ejemplo video" controls>
 				  <source src="media/video/small.mp4" type="video/mp4">
@@ -27,8 +27,7 @@
 			<h2>widget</h2>
 			<iframe id="widget_iframe" width="250" height="250" src="https://www.surfsearchspot.com/widget/?id_spot=396&class=w-250" frameborder="0" allowfullscreen scrolling="no">
 			</iframe> 
-		</section>
-	
+
 	</div> <!--home-->
 	
 <jsp:include page="../../plantillas/footer.jsp"></jsp:include>

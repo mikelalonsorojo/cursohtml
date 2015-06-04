@@ -16,6 +16,8 @@
 	
   <link rel="stylesheet" type="text/css" href="css/styles.css?v=20150518_1.0"> <!-- (?v=20150518_1.0) fuerza la actualización-->
 
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -30,11 +32,13 @@
 			<a href="http://enable-javascript.com/es/">Habilitar Javascript</a>
 	</noscript>
 	
-	<header>
-		<div id="logo">
-			<a href="index.jsp" title="Volver a la Home">
-			<img src="img/logohome.jpg" alt="Logo home" title="Logo home" id="logo_home"/>
-			</a>
+	<header id="head">
+		<div class="clearfix">
+			<div id="logo">
+				<a href="index.jsp" title="Volver a la Home">
+					<img src="img/logohome.jpg" alt="Logo home" title="Logo home" id="logo_home"/>
+				</a>
+			</div>
+				<a href="index.jsp" title="Volver a la Home"><h1>Ejemplos HTML5, CSS3 Y JS</h1></a>
 		</div>
-			<a href="index.jsp" title="Volver a la Home"><h1>Ejemplos HTML5, CSS3 Y JS</h1></a>
-	</header>
+	<!-- Navegacion menu principal -->
