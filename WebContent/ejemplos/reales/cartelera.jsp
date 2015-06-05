@@ -3,9 +3,6 @@
 
 	<div id="home">
 	
-		
-		
-		
 			<div id="cont">
 			<link rel="stylesheet" type="text/css" href="css/styles.css?v=20150518_1.0"> <!-- (?v=20150518_1.0) fuerza la actualización-->
 			

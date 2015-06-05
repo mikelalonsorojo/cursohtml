@@ -18,7 +18,14 @@
 
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	
+	<!-- Fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/font-awesome-4.3.0/css/font-awesome.css">
+	
+	<!-- Custom IcoMoon -->
+	<link rel="stylesheet" type="text/css" href="fonts/icomoon/icomoon/style.css">
+	
   <!--[if lt IE 9]>
+  
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 </head>

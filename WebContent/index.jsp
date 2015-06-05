@@ -3,6 +3,12 @@
 
 	<div id="home" class="clearfix">
 	
+			
+				
+				
+
+	
+	
 	<!-- El contenido principal de la pagina -->
 	
 		<section id="section_index">
@@ -46,8 +52,9 @@
 				<td>MIKEL</td>
 			   </tr>
 			 </table>
+			 	<span class="icon-box"> </span>
 		</section>
-			
+		
 			
 		<!-- SideBar con contenido no principal de la página-->
 	

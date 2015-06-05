@@ -80,8 +80,8 @@
 				<li>
 				<a target="_blank" title="Ir a ejemplo de Tecnicas avanzadas" href="#">Tecnicas avanzadas</a>
 					<ul>
-						<li><a title="Ir a ejemplo de Icons" href="ejemplos/css/posicionamiento/icons.jsp">Icons</a></li>
-						
+						<li><a title="Ir a ejemplo de Icons" href="ejemplos/avanzado/sprite.jsp">Sprite fantasma</a></li>
+						<li><a title="Ir a ejemplo de Fontawesome" href="ejemplos/avanzado/fontawesome.jsp">Fontawesome</a></li>
 					</ul>
 				</li>
 				

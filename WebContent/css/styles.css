@@ -59,8 +59,9 @@ figcaption {
 }
 
 #head h1 {
-	color: #7B02F5;
+	color: white;
 	font-size: 30px;
+	
 }
 
 #logo img {
@@ -86,7 +87,8 @@ nav ul, ol, li {
 	list-style: none;
 }
 
-header { 100%;
+header { 
+	100%;
 	
 }
 
@@ -244,41 +246,33 @@ legend {
 	border-bottom: 1px solid #ff0064;
 	margin-bottom:;
 }
-*/
 
+*/	
 /*
 Seccion Central section-aside
 */	
-section {
 
-}
-			
-			
+	
+#home {
+	
+	
+}			
 		
 #section_index {
 	float: left;
-	
-	width: 673px;
-	padding-top: 10px;
-	padding-left: 15px;
-	padding-right: 30px;
-	padding-bottom: 10px;
- 	margin-top: 113px;
- 	margin-left: -21px;
- 	margin-right: -21px;
+ 	border: 1px solid;
+
+ 	
 }
 
 #aside_index {
-	background-color: #E6E6E6;
-	margin-top: 121px;
+  background-color: #E6E6E6;
+  border: 1px solid;
+ 
 }
 
 
 
-#container  {
-	background-color: yellow;
-	
-}
 
 
 
@@ -396,11 +390,6 @@ mark {
 	background-color: yellow;
 }
 
-legend
-
-
-
-
 
 article {
 	border: 2px solid black;
@@ -490,6 +479,7 @@ tendremos una seccion por cada pagina web
 
 /*HOME*/
 #home {
+	border: 10px;
 	
 }
 
@@ -511,10 +501,47 @@ tendremos una seccion por cada pagina web
 	text-align: left;
 }
 
-/*	FOOTER */
+/***************
+	FOOTER 
+****************/
 
 footer {
 	background-color: #0091BE;
-	margin-left: 153px;
- 	margin-right: 152px;
+
+ 	overflow: hidden;
 }
+
+/*
+			ul {
+				display: inline;
+			}
+*/
+			footer li {
+				display: inline;
+				float: left;
+				overflow: hidden;
+			}
+
+	/* Social media sprite*/
+
+			#list_rrss li {
+				padding: 15px 20px;;
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+				list-style: none;
+				display: inline;
+				
+			}
+			
+			#sprite .facebook {
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+			}
+			
+			#sprite .twitter {
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+			}
+			
+			#sprite .youtube {
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+			}
+			
+			
