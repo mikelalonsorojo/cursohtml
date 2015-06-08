@@ -5,15 +5,15 @@
 	
 			
 				
-				
 
-	
-	
-	<!-- El contenido principal de la pagina -->
-	
+		<!-- El contenido principal de la pagina -->
+			
+
 		<section id="section_index">
 			<h2>El afortunado en leer es:</h2>
 			<label for="btn_ganador" class="numero" id="afortunado">0</label>
+			<br>
+			<br>
 			<br>
 			<input type="button" 
 					value="Obtener nuevo afortunado" 
@@ -72,6 +72,8 @@
 				
 			</ul>
 		</aside>
+		
+		
 
 				<script text="text/javascript" src="js/index.js"></script>
 				<script>
@@ -79,9 +81,9 @@
 					init();
 				</script>
 	
-	</div>
+
 	
-	</div> <!--home-->
+	</div> <!-- <div id="home" class="clearfix"> -->
 	
 <jsp:include page="plantillas/footer.jsp"></jsp:include>
 

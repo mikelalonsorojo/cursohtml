@@ -84,6 +84,13 @@
 						<li><a title="Ir a ejemplo de Fontawesome" href="ejemplos/avanzado/fontawesome.jsp">Fontawesome</a></li>
 					</ul>
 				</li>
+			</ul>
+		</li>
+		
+		<li>
+		<a target="_blank" title="Ir a ejemplo de Javascript" href="#">Javascript</a>
+			<ul>
+				<li><a title="Ir a ejemplo Declarar variable" href="ejemplos/javascript/declarar_variable.jsp">Declarar variable</a></li>
 				
 			</ul>
 		</li>
