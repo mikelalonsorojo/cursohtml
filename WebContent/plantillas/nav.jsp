@@ -90,8 +90,9 @@
 		<li>
 		<a target="_blank" title="Ir a ejemplo de Javascript" href="#">Javascript</a>
 			<ul>
-				<li><a title="Ir a ejemplo Declarar variable" href="ejemplos/javascript/declarar_variable.jsp">Declarar variable</a></li>
-				
+				<li><a title="Ir a Introduccion Javascript" href="ejemplos/javascript/introduccion.jsp">Introduccion</a></li>
+				<li><a title="Ir a ejemplo Switch-case" href="ejemplos/javascript/switch_case.jsp">Switch-case</a></li>
+				<li><a title="Ir a ejemplo Switch-case 2" href="ejemplos/javascript/switch_case2.jsp">Switch-case 2</a></li>
 			</ul>
 		</li>
 	</ul>
