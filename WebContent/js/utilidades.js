@@ -82,7 +82,7 @@
 						
 /**
  * Funcion para determinar si el parametro pasado es par o impar
- * @param numero numero para saber si es par
+ * @param numero para saber si es par
  * @return true si es par, false en caso contrario
  */
  
