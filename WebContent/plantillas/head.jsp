@@ -16,7 +16,7 @@
 	
   <link rel="stylesheet" type="text/css" href="css/styles.css?v=20150518_1.0"> <!-- (?v=20150518_1.0) fuerza la actualización-->
 
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome-4.3.0/font-awesome-4.3.0/css/font-awesome.min.css">
 	
 	<!-- Fontawesome -->
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/font-awesome-4.3.0/css/font-awesome.css">

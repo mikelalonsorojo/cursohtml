@@ -20,7 +20,7 @@
 							
 						*/
 					
-function calcularPrecio (edad, dia) {
+						function calcularPrecio (edad, dia) {
 							
 							var precio = null;
 								
@@ -56,7 +56,7 @@ function calcularPrecio (edad, dia) {
 								case "jueves":									
 											if ( edad <= 18 ) { 
 												precio = 5;
-											} else ( edad > 18 ) { 
+											} else { 
 												precio = 7; 
 											}											
 											break;	
@@ -71,18 +71,7 @@ function calcularPrecio (edad, dia) {
 								return precio;
 							}// end function calcularPrecio
 							
-							//testear el lunes
-							//console.info ('lunes <35 años = 2 €' + calcularPrecio (10,'lunes') );
 							
-						
-						console.info ('Precio cine \n');
-						
-						console.info ('10 años y lunes= ' + calcularPrecio (10,'lunes') );
-						console.info ('35 años y martes= ' + calcularPrecio (35,'martes') );
-						console.info ('45 años y miercoles= ' + calcularPrecio (45, 'miercoles') );
-						console.info ('50 años y jueves= ' + calcularPrecio (50, 'jueves') );
-						console.info ('32 años y sabado= ' + calcularPrecio (32, 'sabado') );
-						
 					
 
 					</script>

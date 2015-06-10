@@ -8,6 +8,6 @@
 $(function() {
 	console.debug('document ready!');
 	
-	$( '#lista_select' ).combobox();
+	/*$( '#lista_select' ).combobox();*/
 	
-    });
+});

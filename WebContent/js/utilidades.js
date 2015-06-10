@@ -29,9 +29,9 @@
 									break;
 								
 								case "martes": 
-										    if (edad<25) { 
+										    if (edad<=25) { 
 										    	precio = 2;
-											} else if ( (edad>=25) && (edad<=50) ) { 
+											} else if ( (edad>25) && (edad<=50) ) { 
 												precio = 5; 
 											} else {
 												precio = 7;
@@ -51,7 +51,7 @@
 								case "jueves":									
 											if ( edad <= 18 ) { 
 												precio = 5;
-											} else ( edad > 18 ) { 
+											} else { 
 												precio = 7; 
 											}											
 											break;	

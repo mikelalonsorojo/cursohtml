@@ -91,8 +91,9 @@
 		<a target="_blank" title="Ir a ejemplo de Javascript" href="#">Javascript</a>
 			<ul>
 				<li><a title="Ir a Introduccion Javascript" href="ejemplos/javascript/introduccion.jsp">Introduccion</a></li>
-				<li><a title="Ir a ejemplo Switch-case" href="ejemplos/javascript/switch_case.jsp">Switch-case</a></li>
+				<li><a title="Ir a ejemplo Entradas cine" href="ejemplos/javascript/entradas_cine.jsp">Entradas cine</a></li>
 				<li><a title="Ir a ejemplo Switch-case 2" href="ejemplos/javascript/switch_case2.jsp">Switch-case 2</a></li>
+				<li><a title="Ir a ejemplo Test" href="ejemplos/javascript/test.jsp">Test</a></li>
 			</ul>
 		</li>
 	</ul>
