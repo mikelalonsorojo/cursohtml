@@ -22,10 +22,9 @@
 	</div> <!--container-->
 		
 		<!-- jQuery -->
-		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
 			
-		<!-- jQuery: User interfaces -->
-		<script src="js/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>	"
+		
 	
 		<!-- Convertir todos los textarea en Tinymce -->
 		<script src="js/tinymce/tinymce.min.js"></script>
