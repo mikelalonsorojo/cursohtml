@@ -1,22 +1,24 @@
-	<footer>
+</div>  <!-- <div id="content"> -->
+	<footer class="clearfix">
 		<span class="copy">&copy; Ipartek</span>
 		
 		<!-- Enlaces de páginas estaticas -->
 		<ul id="list_paginas">
 			<li><a href="#">Aviso legal</a></li>
+			<li> | </li>
 			<li><a href="#">Contacto</a></li>
 		</ul>
 		
 		<!-- Enlaces redes sociales -->
 		<ul id="list_rrss">
-			<li><a href="#" target="_blank">Facebook</a></li>
-			<li><a href="#" target="_blank">Twitter</a></li>
-			<li><a href="#" target="_blank">Youtube</a></li>
-			<li><a href="#" target="_blank">Instagram</a></li>
+			<li><a href="#" target="_blank" class="facebook"></a></li>
+			<li><a href="#" target="_blank" class="twitter"></a></li>
+			<li><a href="#" target="_blank" class="youtube"></a></li>
+			<li><a href="#" target="_blank" class="instagram"></a></li>
 		</ul>
 	</footer>
 	
-	
+
 	</div> <!--container-->
 		
 		<!-- jQuery -->

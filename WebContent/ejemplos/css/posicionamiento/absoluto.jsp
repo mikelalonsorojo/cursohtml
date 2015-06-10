@@ -5,7 +5,7 @@
 	
 	<hr>
 	<!-- El contenido principal de la pagina -->
-	<section>
+
 		
 		<h2>Posicionamiento en CSS</h2>
 	
@@ -60,8 +60,7 @@
 		<footer>
 			<p>Capitulo 9. Pagina 203</p>
 		</footer>
-	
-	</section>
+
 	<hr>
 
 	

@@ -3,13 +3,15 @@
 
 	<div id="home">
 	
-	<hr>
+	
+	<section>
+
 	<header>
 		<h2>Pseudo-clases</h2>
 	</header>
 	
 	<!-- El contenido principal de la pagina -->
-	<section>
+	
 		<div>
 			<h3>:first-child</h3>
 			<style>

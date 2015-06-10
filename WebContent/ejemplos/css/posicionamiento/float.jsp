@@ -5,7 +5,7 @@
 	
 	<hr>
 	<!-- El contenido principal de la pagina -->
-	<section>
+
 		
 		<h2>Posicionamiento en CSS</h2>
 	
@@ -57,8 +57,7 @@
 			<p>Capitulo 9. Pagina 207</p>
 			<a href="http://librosweb.es/libro/css_avanzado/capitulo_1/limpiar_floats.html" target="_blank">CSS avanzado. Limpiar floats</a>
 		</footer>
-	
-	</section>
+
 	<hr>
 
 	

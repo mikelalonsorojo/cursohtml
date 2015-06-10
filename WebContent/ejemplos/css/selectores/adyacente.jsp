@@ -3,7 +3,7 @@
 
 	<div id="home">
 	
-	<hr>
+	
 	<!-- El contenido principal de la pagina -->
 	<section>
 		<header>

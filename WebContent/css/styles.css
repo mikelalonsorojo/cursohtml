@@ -11,35 +11,182 @@ resetear todos los estilos
 */
 @import url("reset.css");
 
-/*
-ETIQUETAS
-dar un estilo general o base a toda la web
-*/
 
-/*
-Regla con selector por ETIQUETA o ELEMENTO o TAG
-*/
+
+/************************** 
+      ClearFix
+**************************/
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/***********************/
+
+
+
+
+
 body {
 	background-image: url("../img/fondofilm.jpg");
 	background-repeat: repeat;
 	font-family: arial;
 }
 
-header > h2{
-	background-color: grey;
-}
 figure {
 	
 }
 
 figcaption {
-		
+	
+}
+
+
+
+
+/************************
+          HEAD 
+*************************/
+#head {
+	position: fixed;
+	background-color: #0091BE;
+	width: 942px;
+	padding-top: 10px;
+	margin-top: -8px;
+	margin-left: -21px;
+	margin-right: -21px;
+}
+
+#head #logo, #head h1 {
+	float: left;
+}
+
+#head h1 {
+	color: white;
+	font-size: 30px;
+	
+}
+
+#logo img {
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+/************************
+      MENU PRINCIPAL 
+*************************/
+header nav * {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav header {
+	margin: auto;
+	width: 500px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+nav ul, ol, li {
+	list-style: none;
+}
+
+header { 
+	100%;
+	
+}
+
+nav * {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav {
+	margin: 0px auto;
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul, nav ol {
+	list-style: none;
+}
+
+nav ul ul {
+	margin: 0px;
+}
+
+nav h2, nav h3 {
+	margin: 0px;
+}
+
+.menu li a, .menu li h2, .menu li h3 {
+	background-color: #0091BE;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 15px;
+	display: block;
+}
+
+.menu li h2:hover, .menu li h3:hover, .menu li a:hover {
+	background-color: #434343;
+}
+
+.menu>li {
+	float: left;
+}
+
+.menu li ul {
+	display: none;
+	position: absolute;
+	min-width: 175px;
+}
+
+.menu li:hover>ul {
+	display: block;
+}
+
+.menu li ul li {
+	position: relative;
+}
+
+.menu li ul li ul {
+	right: -175px;
+	top: 0px;
+}
+/****************************/
+
+
+
+
+/*******************
+	 CONTENEDOR 
+*******************/
+#content {
+	padding-top: 120px;
 }
 
 a {
 	text-decoration: none;
 }
 
+/*	Recomendable para CSS impresion
+
+a:after {  
+	content: " (" attr(href) ") "; 
+}
+*/
 a:hover {
 	color: orange;
 }
@@ -49,32 +196,169 @@ p {
 	font-size: 16px; /*tamaño estandard para paginas web 16px*/
 	text-align: justify;
 	line-height: 20px;
-} 
+}
 
 fieldset {
-	border:1px solid grey;
+	border: 1px solid grey;
 	padding: 20px 30px;
-	margin-bottom: 20px;		
+	margin-bottom: 20px;
 }
 
 legend {
-	font-weight:bold ;
+	font-weight: bold;
+}
+
+/******************* 
+	BOTON GANADOR
+*******************/
+#btn_ganador {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 6;
+	-moz-border-radius: 6;
+	border-radius: 6px;
+	text-shadow: 1px 1px 3px #666666;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 13px 10px 14px;
+	text-decoration: none;
+}
+
+#btn_ganador:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
 }
 
 
+/****************** 
+		HOME 
+******************/
 /*
-	validaciones formularios
-*/
-
-form input [type='text']:required:valid{
-	border:5px solid green;
+#home section, #home aside {
+	float: left;
 }
 
-form input [type='text']:focus:required:invalid{
-	border:5px solid red;
+#home section {
+	width: 60%;
+	margin-left: 9%;
+}
+
+#home aside {
+	width: 24%;
+	bakground-color: #DDD;
+	min-height: 300px;
+	padding: 2%;
+}
+
+#home aside h3 {
+	color: #ff0064;
+	border-bottom: 1px solid #ff0064;
+	margin-bottom:;
+}
+
+*/	
+/*
+Seccion Central section-aside
+*/	
+
+	
+#home {
+	
+	
+}			
+		
+#section_index {
+	float: left;
+ 	margin: 10px;
+ 	padding: 10px;
+
+ 	
+}
+
+#aside_index {
+	float: left;
+ 	 background-color: #E6E6E6;
+ 	padding: 10px;
+ 	border: 1px solid #0091BE;
 }
 
 
+
+
+
+
+
+/******************
+	CARTELERA
+******************/
+#cartelera h1{
+	text-align: center;
+}
+
+#cartelera ul {
+	float: left;
+	width: 30%;
+	padding-left: 5%;
+}
+
+#cartelera li {
+	float: left;
+	width: 30%;
+	margin-right: 2%;
+	list-style: none;
+}
+
+#cartelera li:nth-child(3n+0) {
+	margin-right: 0;
+}
+
+#cartelera .cartel {
+	position: relative;
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+#cartelera .titulo {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 90%;
+	padding: 3% 5%;
+	min-height: 40px;
+	text-align: center;
+	display: none;
+}
+
+#cartelera .titulo h2 {
+	color: #0099FF;
+	text-align: center;
+}
+
+#cartelera .cartel:hover .titulo {
+	display: block;
+}
+
+
+/********************************
+	Validaciones formularios 
+********************************/
+form input [type='text']:required:valid {
+	border: 5px solid green;
+}
+
+form input [type='text']:focus:required:invalid {
+	border: 5px solid red;
+}
 
 ol, ul {
 	list-style-type: disc;
@@ -89,18 +373,19 @@ ol h3, ul h3 {
 	margin-bottom: 15px;
 }
 
-ol ol, ul  ul{
+ol ol, ul  ul {
 	margin-left: 20px;
 	list-style-type: circle;
 }
 
-h1 {			/*recomendación ordenar alfabeticamente*/
+h1 { /*recomendación ordenar alfabeticamente*/
 	color: green;
 	margin-bottom: 20px;
 	font-size: 50px;
 	font-family: arial;
 	text-align: center;
-}  
+}
+
 
 
 table.tabla_azul, .tabla_azul tr, .tabla_azul td {
@@ -111,7 +396,7 @@ table.tabla_azul, .tabla_azul tr, .tabla_azul td {
 	padding: 20px;
 	color: #0099FF;
 	font-family: arial;
-	font-size: 35px;
+	font-size: 30px;
 	text-align: center;
 	height: 40px;
 }
@@ -125,10 +410,8 @@ strong {
 }
 
 mark {
-	background-color: yellow;	
+	background-color: yellow;
 }
-
-legend
 
 
 article {
@@ -136,7 +419,6 @@ article {
 	padding: 20px;
 	margin-bottom: 25px;
 }
-
 
 article h1 {
 	background-color: grey;
@@ -148,18 +430,16 @@ article h1 {
 ESTILOS REUTILIZABLES
 Regla con selector por CLASS para usar en todas las páginas
 */
-
 .btn_volver {
 	background-color: #DDDDDD;
 }
 
 .numero {
 	color: #0099FF;
-	font-size: 150px;
+	font-size: 100px;
 }
 
 /*--------------------------------*/
-
 .highlight {
 	background-color: yellow;
 }
@@ -168,32 +448,25 @@ Regla con selector por CLASS para usar en todas las páginas
 	color: green;
 }
 
-
 .cartel {
-	float:left;
+	float: left;
 	margin-right: 30px;
 	width: 250px;
 	height: auto;
 }
 
-
 /*
 Regla con selector por ID
 */
-
-#home {
-		
-}
-
 #encabezado {
 	border: 2px solid green;
 }
 
 #ficha {
-  float: left;
-  width: 580px;
-  min-height: 360px;
-  margin-bottom: 20px;
+	float: left;
+	width: 580px;
+	min-height: 360px;
+	margin-bottom: 20px;
 }
 
 #ficha p {
@@ -207,12 +480,13 @@ Regla con selector por ID
 }
 
 #container {
-	width:900px;
-	margin: 0 auto; /*centrar*/ /*margin-left margin-right margin-top margin-bottom*/
-	padding: 0px 20px ; /**/
-	border-right:1px solid grey;
-	border-left:1px solid grey;
-	background-color: white;	
+	width: 900px;
+	margin: 0 auto; /*centrar*/
+	/*margin-left margin-right margin-top margin-bottom*/
+	padding: 0px 20px; /**/
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	background-color: white;
 }
 
 #sinopsis {
@@ -228,19 +502,20 @@ tendremos una seccion por cada pagina web
 
 /*HOME*/
 #home {
-
+	border: 10px;
+	
 }
 
 /*NAV*/
-#logo img{
+#logo img {
 	width: 100px;
 	height: 70px;
+	float: left;
 }
-
 
 /*CARTELERA*/
 #cartelera {
-
+	
 }
 
 /*CARTELERA_DETALLE*/
@@ -250,3 +525,72 @@ tendremos una seccion por cada pagina web
 }
 
 
+/***************
+	FOOTER 
+****************/
+
+footer {
+	background-color: #0091BE;
+
+ 	overflow: hidden;
+}
+
+/*
+			ul {
+				display: inline;
+			}
+*/
+
+
+			footer li {
+				display: inline;
+				float: left;
+				overflow: hidden;
+				display: inline;
+			}
+			
+			
+	
+			footer li#list_rrss {
+				display: inline;
+				float: left;
+				overflow: hidden;
+			}
+
+footer {
+	padding-top: 10px;
+ 	 margin-top: -8px;
+ 	 margin-left: -21px;
+ 	 margin-right: -21px;
+	
+}
+
+
+		
+
+/**********************
+	Social media sprite
+**********************/
+
+			#list_rrss li {
+				padding: 19px 20px;
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+				list-style: none;
+				display: inline;
+				float: right;
+				
+			}
+			
+			#sprite .facebook {
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+			}
+			
+			#sprite .twitter {
+				background: url('../img/sprite_sm.png') no-repeat 0 60px;
+			}
+			
+			#sprite .youtube {
+				background: url('../img/sprite_sm.png') no-repeat 0 0;
+			}
+			
+			

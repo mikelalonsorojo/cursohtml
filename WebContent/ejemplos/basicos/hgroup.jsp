@@ -4,8 +4,8 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
-				<hr>
+	
+
 					<articule>
 					<h2>Ejemplo etiqueta hgroup</h2>
 				  	<hgroup>
@@ -15,8 +15,8 @@
 	  					<h2>Titular 4</h2>
 	 				 </hgroup>
 	 				 </articule>
- 				 <hr>
-		</section>
+
+	
 	
 	</div> <!--home-->
 	

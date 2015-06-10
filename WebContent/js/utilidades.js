@@ -87,7 +87,7 @@
  */
  
 function es_par (numero) {
-	                                                                                           ;
+	 resul = false;                                                                              ;
 	
 	//TODO falta de implementar
 	

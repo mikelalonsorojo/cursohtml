@@ -4,7 +4,7 @@
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->
-		<section>
+
 			<h2>Ejemplo etiqueta figure</h2>
 			<figure>
 				<img src="img/emoticono.jpg" alt ="imagen emoticono">
@@ -17,7 +17,7 @@
 				<img src="img/emoticono.jpg" alt ="">
  				<figcaption>tres</figcaption>
 			</figure>
-		</section>
+
 	
 	</div> <!--home-->
 	
