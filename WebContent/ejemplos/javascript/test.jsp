@@ -13,6 +13,61 @@
   <script src="../../js/utilidades.js"></script>
 	
 	<script>
+			QUnit.test( "Funciones predefinidas", function( assert ) {
+				assert.ok( escape ('Hola mundo') ==  "Hola%20mundo", "'Hola mundo' escapado" );
+				assert.ok( escape ('Hóla mundo') ==  "H%F3la%20mundo", "'Hola mundo' escapado" );
+				
+				assert.ok( (10 + '1')	==  "101", "Sin parseInt 10 + \"1\" = 101" );
+				assert.ok( (10 + parseInt('1') )	==  11, "Con parseInt 10 + \"1\" = 11" );
+				
+				assert.ok( isNaN('123abc') , "123abc No es numero" );
+				assert.ok( !isNaN('123')  , "123 Es numero" );
+				
+				
+				var jonWayne = new Array("Jon", "Wayne", 45);
+				
+				assert.ok ( jonWayne[0] == "Jon"	, "posicion 0 esta 'Jon' ");
+				assert.ok ( jonWayne[1] == "Wayne"	, "posicion 1 esta 'Wayne' ");
+				assert.ok ( jonWayne[2] == 45		, "posicion 2 esta 45 ");
+				assert.ok ( jonWayne.length == 3	, "Longitud del array es 3 ");
+				
+				var pelicula = new Array (" \'El bueno, el feo y el malo\' ", 1975, " \'Ni idea\' ");
+				var vectorFinal=jonWayne.concat(pelicula);
+
+				// comprabacion vectorFinal
+				assert.ok ( vectorFinal[0] == "Jon"	, "En la posicion 0 esta 'Jon' ");
+				assert.ok ( vectorFinal[1] == "Wayne"	, "En la posicion 1 esta 'Wayne' ");
+				assert.ok ( vectorFinal[2] == 45	, "En la posicion 2 esta 45 ");
+				assert.ok ( vectorFinal[3] == " \'El bueno, el feo y el malo\' "	, "En la posicion 3 esta 'El bueno, el feo y el malo' ");
+				assert.ok ( vectorFinal[4] == 1975	, "En la posicion 4 esta 1975 ");
+				assert.ok ( vectorFinal[5] == " \'Ni idea\' "	, "En la posicion 5 esta 'Ni idea' ");
+				
+				
+				//comprabacion jonWayne.join('#')
+				jonWayne.join('#')
+				assert.ok ( jonWayne.join('#') == "Jon#Wayne#45", " Metodo join con separador #. El resultado es: Jon#Wayne#45 ");
+				
+				//comprabacion jonWayne.reverse()*******
+				jonWayne.reverse()
+				assert.ok ( jonWayne()[0] == 45, " Metodo reverse. Primera posicion: 45 ");
+				assert.ok ( jonWayne()[1] == "Wayne", " Metodo reverse. Segunda posicion: 'Wayne' ");
+				assert.ok ( jonWayne()[2] == "Jon", " Metodo reverse. Primera posicion: 'Jon' ");
+				
+				//document.write( jonWayne.sort()	);
+				assert.ok ( jonWayne.sort()[0] == 45, " Metodo sort. Primera posicion: 45 ");
+				assert.ok ( jonWayne.sort()[1] == "Jon", " Metodo sort. Segunda posicion: 'Jon' ");
+				assert.ok ( jonWayne.sort()[2] == "Wayne", " Metodo sort. Primera posicion: 'Wayne' ");
+				
+				//var orderNum = new Array(-5,5,3,1,0);
+				//document.write( orderNum.sort()	);
+				
+				//var orderLetter = new Array('b','a','A','h');
+				//document.write( orderLetter.sort() );
+			});	
+			
+
+			
+			
 		//Nuestro codigo de test
 			QUnit.test( "calcularPrecio (edad,dia)", function( assert ) {
 			
