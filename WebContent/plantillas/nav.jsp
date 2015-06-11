@@ -94,6 +94,8 @@
 				<li><a title="Ir a ejemplo Entradas cine" href="ejemplos/javascript/entradas_cine.jsp">Entradas cine</a></li>
 				<li><a title="Ir a ejemplo Switch-case 2" href="ejemplos/javascript/switch_case2.jsp">Switch-case 2</a></li>
 				<li><a title="Ir a ejemplo Test" href="ejemplos/javascript/test.jsp">Test</a></li>
+				<li><a title="Ir a ejemplo Objetos basicos" href="ejemplos/javascript/objetos.jsp">Objetos basicos</a></li>
+			</ul>
 			</ul>
 		</li>
 	</ul>

@@ -430,6 +430,14 @@ article h1 {
 ESTILOS REUTILIZABLES
 Regla con selector por CLASS para usar en todas las páginas
 */
+
+.cnt_article {
+	
+	
+}
+
+
+
 .btn_volver {
 	background-color: #DDDDDD;
 }
