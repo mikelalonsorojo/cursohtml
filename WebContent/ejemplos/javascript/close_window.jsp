@@ -1,6 +1,18 @@
 <jsp:include page="../../plantillas/head.jsp"></jsp:include>
 <jsp:include page="../../plantillas/nav.jsp"></jsp:include>
-
+	
+	<script type="text/javascript">
+		window.onresize = function()
+		{
+			window.resizeTo(500,500);
+		}
+		window.onclick = function()
+		{
+			window.resizeTo(500,500);
+		}
+	
+	</script>
+	
 	<div id="home">
 	
 		<!-- El contenido principal de la pagina -->

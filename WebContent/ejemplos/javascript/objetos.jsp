@@ -31,6 +31,7 @@
 						<li>
 							<span id="w_name"><strong>name:</strong></span>
 							<p><code>document.title</code> para el nombre de la pesta&ntilde;a</p>
+							<!--  <span>* Chrome no funciona <code>resizable=no</code> por lo cual hemos metido javascript en la nueva ventana</span>-->
 						</li>
 						
 						<li>
@@ -69,6 +70,29 @@
 						
 					</ul>
 					
+					<h2>Objeto History</h2>
+					<ul>
+						<li>
+							<span><strong>length</strong></span>
+							<span id="h_length"></span>
+						</li>
+						
+						<li>
+							<span><strong>back</strong></span>
+							<input type="button" id="h_back" value="back"></input>
+						</li>
+						
+						<li>
+							<span><strong>forward</strong></span>
+							<input type="button" id="h_forward" value="forward"></input>
+						</li>
+						
+						<li>
+							<span><strong>go(numero)</strong></span>
+							<input type="button" id="h_go" value="go"></input>
+						</li>
+					</ul>
+					
 					<script type="text/javascript">
 						/***********************Objetos WINDOW************************/
 						//document.getElementById('w_location').innerHTML = window.location;
@@ -83,7 +107,7 @@
 						btn_w_open.onclick = function() {
 									/*console.info('Hemos hecho click');
 									TODO abrir una nueva ventana*/
-									window.open ('ejemplos/javascript/close_window.jsp','Boton cierre ventana','toolbar=no, menubar=no');
+									window.open ('ejemplos/javascript/close_window.jsp','Boton cierre ventana','toolbar=no, menubar=no, resizable=0');
 							};
 							
 						//metodo blur
@@ -101,27 +125,95 @@
 								};
 								
 							
-						/***********************Objetos DOCUMENT***********************
+						/***********************Objetos DOCUMENT************************/
 						//propiedad bgcolor
 						var btn_d_bgcolor = document.getElementById ('d_bgcolor');
 						btn_d_bgcolor.onclick = function() {
 									document.bgColor="#CC1414";
 							};
-							
-						/*propiedad images
+						
+						
+						//propiedad images
 						var btn_d_images = document.getElementById ('d_images');
 						btn_d_images.onclick = function() {
-								var document.images
+							
+								//recojer todas las imagenes en una variable
+								var aImagenes = document.images;
+								//preparar un mensaje para el alert
+								var mensaje = 'Este documento tiene ' + aImagenes.length + ' imagenes \n';
+								
+								
+								//recorrer el array de imagenes
+								for ( i=0; i < aImagenes.length; i++) {
+									
+									//si hay mas de 5 salir del bucle
+									if (i==5)break;
+									
+									//añadir al mensaje el 'src' de cada imagen
+									mensaje += aImagenes[i].src + '\n';
+									
+									
+									
+								}
+								
+								
 							};
 							
-							
+						
 						//propiedad links
 						var btn_d_links = document.getElementById ('d_links');
 						btn_d_links.onclick = function() {
-									
-							};
+							
+								//recojer todas los enlaces en una variable
+								var aEnlaces = document.links;
+								//preparar un mensaje para el alert
+								var mensaje = 'Este documento tiene ' + aEnlaces.length + ' enlaces \n';
+								
+								
+								//recorrer el array de enlaces
+								for ( i=0; i < aEnlaces.length; i++) {
 
-						*/	
+									//si hay mas de 5 salir del bucle
+									if (i==5)break;
+									
+									//añadir al mensaje el 'src' de cada enlace
+									mensaje += aEnlaces[i].src + '\n';
+									
+								}
+								
+								
+							};
+							
+							
+							
+						//history.length 
+						var btn_h_length = document.getElementById ('h_length');
+						btn_h_length.innerHTML = history.length
+						
+						//history.back 
+						var btn_h_back = document.getElementById ('h_back');
+						btn_h_back.onclick = function() {
+									history.back()
+						};
+						
+						//history.forward 
+						var btn_h_forward = document.getElementById ('h_forward');
+						btn_h_forward.onclick = function() {
+									history.forward()
+						};
+						
+						//history.go 
+						var btn_h_go = document.getElementById ('h_go');
+						btn_h_go.onclick = function() {
+									history.go(-2)
+						};
+						
+						
+							
+							
+		
+					
+						
 								
 					</script>
 		
